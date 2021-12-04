@@ -1,4 +1,7 @@
 # Google Snake Mod
 
 Go to the Console (CTRL + SHIFT + I)
-Copy `Mod.js` and paste it in the console.
+and paste this:
+```
+javascript:fetch("https://raw.githubusercontent.com/toolkit1/google-snake-mod-menu/main/mod.js").then((response) => response.text()).then((responseText) => {eval(responseText)});
+```
